@@ -1,0 +1,2 @@
+token=$(curl -s -X POST "http://localhost:8081/AltoroJ/api/login" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{  \"username\": \"jsmith\",  \"password\": \"demo1234\"}" | jq .Authorization | tr -d '"')
+echo "Authorization: $token"

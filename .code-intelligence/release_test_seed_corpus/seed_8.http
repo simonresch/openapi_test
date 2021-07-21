@@ -1,0 +1,8 @@
+POST /AltoroJ/api/admin/changePassword HTTP/1.1
+Host: localhost:8080
+Authorization: 
+Content-Length: 2
+Content-Type: application/json
+Jazzer-Internal-Controller-Id: POST_/admin/changePassword
+
+{}
